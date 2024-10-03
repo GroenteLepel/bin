@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Source: https://opensource.com/article/22/4/customize-git-subcommands
+
 TOP=$(git rev-parse --show-toplevel)
 HASH=$(git log --pretty=format:'%h' -n 1)
 
